@@ -1,18 +1,71 @@
-# React + Vite
+# Client Website (Desktop Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive client website built with React and Vite. This project is currently optimized for desktop viewing only.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React 18 + Vite
+- Modern UI components
+- Optimized for desktop view
+- Fast refresh development experience
+- Clean and maintainable codebase
 
-## React Compiler
+## 🖥️ Viewing the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This website is designed specifically for desktop viewing. For the best experience, please access it from a desktop or laptop computer.
 
-## Expanding the ESLint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Gaurav-frontend-developer/Client-web-only.git
+   cd Client-web-only
+   ```
 
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 🤝 Contributing
+
+We welcome contributions! This is an open-source project, and we appreciate any help from the community.
+
+### How to Contribute
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request
+
+### Guidelines
+
+- Follow the existing code style
+- Write clear commit messages
+- Update documentation as needed
+- Test your changes
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Built with [Vite](https://vitejs.dev/)
+- Powered by [React](https://reactjs.org/)
+
+---
+
+💡 **Note**: This project is currently optimized for desktop viewing only. Mobile responsiveness is not implemented at this time.
 
