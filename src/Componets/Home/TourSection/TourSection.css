@@ -1,0 +1,97 @@
+.tour-section {
+    width: 100%;
+    background: #0f0f12;
+    color: #e5e5e5;
+    /* padding: 50px 80px; */
+    font-family: "Poppins", sans-serif;
+    margin-top: -8px;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0));
+    box-sizing: border-box;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    color: #d2d2d2;
+    position: relative;
+    top: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.left-text {
+    width: 40%;
+    font-size: 16px;
+    line-height: 1.7rem;
+    opacity: 0.85;
+   
+}
+.left-text p {
+    font-size: 30px;
+}
+
+.highlight {
+    color: #ffd361;
+}
+
+.timeline {
+    width: 30%;
+    height: 640px;
+    border-left: 2px solid #999;
+    padding-left: 30px;
+    
+   
+    box-sizing: border-box;
+}
+
+.item {
+    margin-bottom: 60px;
+    position: relative;
+    /* margin-left: 15rem; */
+
+    
+}
+
+.item-container {
+    margin-bottom: 60px;
+    position: relative;
+    right: 15rem;
+}
+
+.item::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -37px;
+    top: 6px;
+}
+
+.day {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+h3 {
+    margin: 5px 0 10px;
+}
+
+.city-img {
+    width: 170px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+}

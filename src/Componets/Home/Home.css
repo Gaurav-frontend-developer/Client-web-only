@@ -1,0 +1,582 @@
+.navbar {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  
+  position: absolute;
+  top: 24px;
+  width: 83%;
+  left: 7%;
+  height: 50px;
+}
+
+.icon-menu-bar {
+  height: 100px;
+  width: 10%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.362);
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(12px);
+  padding: 150px 60px;
+  display: none;
+}
+
+
+.icon-menu-bar h4 {
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+  right: 30px;
+  
+}
+.Close-icon {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 25px;
+  height: 26px;
+
+}
+
+
+
+
+
+
+
+.Menu-icon {
+  font-size: 40px;
+  position: relative;
+  right: 200px;
+  top: 4px;
+  display: none;
+}
+
+.Div-conatiner {
+  width: 100%;
+  height: 760px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 100%), url('../../assets/background.jpg');
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.Div-Ranger-0001 {
+  width: 100%;
+  height: 10px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+.part-0002 {
+  width: 500px;
+  height: 10px;
+  background-color: purple;
+  margin-top: 20px;
+  border-radius: 20px;
+  
+}
+.part-0003 {
+ width: 500px;
+  height: 10px;
+  background-color: purple;
+  margin-top: 20px;
+  border-radius: 20px;
+  
+}
+.Div-Ranger-0001 h1 {
+  margin-top: 4px;
+  color: #ffffff;
+}
+
+
+
+.Div-conatiner #Img-02 {
+  width: 16rem;
+  height: 16rem;
+  position: relative;
+  left: 40rem;
+  bottom: -2rem;
+
+}
+
+/* .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent);
+  } */
+.Div-conatiner-22 {
+  width: 718px;
+  height: 290px;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  left: 1rem;
+  bottom: -1rem;
+
+}
+
+.div-part2 {
+  width: 136px;
+  height: 270px;
+  background-color: red;
+  position: absolute;
+  left: 9%;
+  top: 1rem;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%),
+    url("../../assets/famous-palce.jpg");
+  background-size: cover;
+  /* image poore div ko cover kar dega */
+  background-position: center;
+  /* center me set hoga */
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.div-part3 {
+  width: 148px;
+  height: 270px;
+  background-color: red;
+  position: absolute;
+  left: 31%;
+  top: 15px;
+  border-radius: 10px;
+
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%),
+    url("../../assets/nature-20.jpg");
+  background-size: cover;
+  /* image poore div ko cover kar dega */
+  background-position: center;
+  /* center me set hoga */
+  background-repeat: no-repeat;
+}
+
+.div-part4 {
+  width: 148px;
+  height: 270px;
+  background-color: red;
+  position: absolute;
+  left: 77%;
+  top: 15px;
+  border-radius: 10px;
+
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%),
+    url("../../assets/nature-21.jpg");
+  background-size: cover;
+  /* image poore div ko cover kar dega */
+  background-position: center;
+  /* center me set hoga */
+  background-repeat: no-repeat;
+}
+
+.div-part5 {
+  width: 148px;
+  height: 270px;
+  background-color: red;
+  position: absolute;
+  left: 54%;
+  top: 15px;
+  border-radius: 10px;
+
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%),
+    url("../../assets/nature-22.jpg");
+  background-size: cover;
+  /* image poore div ko cover kar dega */
+  background-position: center;
+  /* center me set hoga */
+  background-repeat: no-repeat;
+}
+
+.div-part2 p {
+  text-align: center;
+  margin-top: 220px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.div-part3 p {
+
+  position: absolute;
+  top: 206px;
+  left: 30px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.div-part4 p {
+
+  position: absolute;
+  top: 206px;
+  left: 30px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.div-part5 p {
+
+  position: absolute;
+  top: 206px;
+  left: 30px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.logo img {
+  width: 70px;
+  height: 50px;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  position: relative;
+  transition: 0.3s ease;
+  color: #ffffff;
+}
+
+.navbar button {
+  color: #ffffff;
+  padding: 11px 28px;
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background: none;
+  cursor: pointer;
+ pointer-events: auto;
+
+}
+
+.nav-links h4 {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+   transition: 0.3s ease;
+}
+
+.logo h1:hover {
+  color: black;
+  transform: translateY(-2px);
+}
+
+.imag-power-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.Div-container-002 img {
+  width: 300px;
+  height: 400px;
+  background-color: transparent;
+  position: absolute;
+  top: 23rem;
+  right: 9rem;
+  border-bottom-left-radius: 200px;
+  color: white;
+}
+
+.Div-container-002 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 200px;
+}
+
+.Div-container-002 button {
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 360px ) and (max-width: 480px){
+  .nav-links{
+    position: relative;
+    font-size: 10px;
+    gap: 0;
+    right: 120px;
+    display: none;
+
+  }
+  
+  /* .navbar {
+
+  } */
+
+  .logo h1 {
+   font-size: 15px;
+    position: relative;
+    left: 81px;
+  }
+
+  .logo img {
+    display: none;
+  }
+  .Menu-icon {
+    display: block;
+    position: relative;
+    font-size: 23px;
+    right: 111px;
+    font-weight: 900;
+  }
+  .navbar button {
+    position: relative;
+    left: 25px;
+    height: 24px;
+    padding: 0px 15px;
+    font-size: 12px;
+  }
+
+  .navbar {
+    width: 96%;
+    margin-left: -17px;
+    text-align: center;
+  }
+  .Div-container-002 img {
+    position: absolute;
+    left: 10px;
+    top: 182px;
+  }
+
+  .Div-conatiner-22 {
+    width: 200px;
+    height: 200px;
+  }
+
+  
+
+  /* .Travel-conatiner {
+    
+  } */
+
+  .Travel-row {
+    display: none;
+  }
+  .Travel-footer-TP {
+    
+    padding: 15px 82px;
+    margin-top: 74px;
+    
+    margin-left: -40px;
+  }
+
+  
+
+  .Travel-span {
+    display: none;
+  }
+
+  #id-container {
+    display: none;
+  }
+  .div-conatiner-999 {
+    display: none;
+  }
+  #house-power {
+    display: block;
+    position: absolute;
+    left: 10px;
+  }
+  
+  #Tour-Travel-section {
+ display: none;
+    position: relative;
+    left: 8px;
+    top: 84px;
+    width: 139px;
+    max-width: 35rem;
+    height: 13rem;
+  }
+
+  .Travel-icon {
+    display: none;
+    
+  }
+  .Travel-span {
+    display: none;
+  }
+
+  .Div-conatiner {
+    height: 1200;
+  }
+  .content {
+    display: none;
+  }
+  .Div-conatiner-22 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .div-part2 {
+   height: 408px;
+    position: absolute;
+    width: 318px;
+    top: 53px;
+    left: 2px;
+  }
+  .div-part3 {
+    display: block;
+    height: 408px;
+    position: absolute;
+    width: 318px;
+    top: 476px;
+    left: 0px;
+
+  }
+  .div-part4 {
+    display: block;
+    height: 408px;
+    position: absolute;
+    width: 318px;
+    top: 915px;
+    left: 1px;
+  }
+  .div-part5 {
+    
+    display: block;
+    height: 408px;
+    position: absolute;
+    width: 318px;
+    top: 1358px;
+    left: 1px;
+  }
+
+
+  .title {
+    display: block;
+    margin-top: 111rem;
+    
+  }
+
+  .left-text {
+    display: block;
+  
+  }
+  .Topa-tag {
+   width: 320px;
+    margin-left: -77px;
+    
+  }
+  .highlight {
+    font-size: 27px;
+  }
+  .timeline {
+    display: block;
+    position: absolute;
+    top: 197rem;
+    left: 44px;
+  }
+  #Tool-2 {
+    position: absolute;
+    left: 90px;
+    top: 130px
+  }
+  #Tool-3{
+    position: absolute;
+    left: 120px;
+    top: 350px
+  }
+  #Tool-4{
+    position: absolute;
+    left: 70px;
+    top: 350px
+  }
+  #Tool-5{
+    position: absolute;
+    left: 120px;
+    top: 350px
+  }
+.tour-section {
+  height: 81rem;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
